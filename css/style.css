@@ -17,7 +17,7 @@ ul {
 }
 
 header nav {
-  height: 100px;
+  height: 120px;
 }
 header section img {
   width: 60px;
@@ -64,9 +64,4 @@ main div {
 main img {
   height: 15px;
   width: 15px;
-}
-
-div:last-child {
-  display: inline-flex;
-  align-items: flex-end;
 }
