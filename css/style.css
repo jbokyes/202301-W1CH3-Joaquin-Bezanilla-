@@ -5,8 +5,6 @@ body {
   position: fixed;
 }
 header {
-  margin: auto;
-  padding: auto;
   background-color: blueviolet;
   display: flex;
   justify-content: space-around;
@@ -24,7 +22,6 @@ ul {
 
 main section img {
   width: 60px;
-  margin-top: auto;
   margin-left: 10px;
 }
 
@@ -48,14 +45,14 @@ header p {
 }
 main {
   background-color: burlywood;
-  height: 700px;
-  width: 445px;
+  /*height: 700px;
+  width: 445px;*/
+}
+main > section:nth-child(2) {
+  background-color: thistle;
 }
 main div {
-  width: 600px;
-  height: 100px;
   display: flex;
-  align-items: center;
   justify-content: space-around;
 }
 main > section:nth-child(1) {
@@ -90,4 +87,18 @@ footer {
 footer img {
   width: 20%;
   align-content: center;
+}
+main > section > div > span {
+  font-size: 17px;
+}
+main > section > div > span:last-child {
+  font-size: 35px;
+}
+main > section > div > p:hover {
+  color: gold;
+}
+input[type="text"] {
+  background-color: thistle;
+  border: none;
+  border-bottom: 1px solid black;
 }
