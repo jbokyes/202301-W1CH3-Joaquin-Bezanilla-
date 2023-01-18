@@ -79,3 +79,13 @@ main div img {
   height: 15px;
   width: 15px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: cornflowerblue;
+}
+footer img {
+  width: 20%;
+  align-content: center;
+}
