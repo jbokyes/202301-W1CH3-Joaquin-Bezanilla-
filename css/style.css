@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  position: fixed;
+}
+header {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-around;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 1.3em;
+}
+ul {
+  list-style-type: none;
+}
+
+main section img {
+  width: 60px;
+  margin-left: 10px;
+}
+
+header nav {
+  display: flex;
+  background-color: blueviolet;
+}
+
+header li {
+  display: inline-block;
+  padding: 15px 15px 0 15px;
+  text-align: right;
+}
+
+header section {
+  background-color: chocolate;
+}
+
+header p {
+  display: inline-flex;
+}
+main {
+  background-color: burlywood;
+  /*height: 700px;
+  width: 445px;*/
+}
+main > section:nth-child(2) {
+  background-color: thistle;
+}
+main div {
+  display: flex;
+  justify-content: space-around;
+}
+main > section:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+}
+
+main > section:nth-child(1) > p {
+  margin-right: 30px;
+}
+
+main > section > form {
+  display: flex;
+  flex-direction: column;
+}
+main > section > form > [type="submit"] {
+  width: 70px;
+  padding: 8px;
+  background-color: cornflowerblue;
+  color: white;
+}
+main div img {
+  height: 15px;
+  width: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: cornflowerblue;
+}
+footer img {
+  width: 20%;
+  align-content: center;
+}
+main > section > div > span {
+  font-size: 17px;
+}
+main > section > div > span:last-child {
+  font-size: 35px;
+}
+main > section > div > p:hover {
+  color: gold;
+}
+input[type="text"] {
+  background-color: thistle;
+  border: none;
+  border-bottom: 1px solid black;
+}
