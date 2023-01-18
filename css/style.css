@@ -48,6 +48,8 @@ header p {
 }
 main {
   background-color: burlywood;
+  height: 700px;
+  width: 445px;
 }
 main div {
   width: 600px;
