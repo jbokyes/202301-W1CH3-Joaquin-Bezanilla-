@@ -1,0 +1,15 @@
+header img {
+  width: 60px;
+}
+
+main img {
+  width: 20px;
+}
+
+header nav {
+  display: flex;
+}
+
+header section {
+  display: flex;
+}
