@@ -7,27 +7,25 @@ body {
 header {
   margin: auto;
   padding: auto;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-around;
 }
 body {
   margin: 0;
   padding: 0;
 }
+h1 {
+  font-size: 1.3em;
+}
 ul {
   list-style-type: none;
 }
 
-header nav {
-  height: 120px;
-}
-header section img {
+main section img {
   width: 60px;
-  display: block;
   margin-top: auto;
   margin-left: 10px;
-}
-
-main img {
-  width: 20px;
 }
 
 header nav {
@@ -36,7 +34,6 @@ header nav {
 }
 
 header li {
-  float: left;
   display: inline-block;
   padding: 15px 15px 0 15px;
   text-align: right;
@@ -44,11 +41,9 @@ header li {
 
 header section {
   background-color: chocolate;
-  text-align: right;
 }
 
 header p {
-  text-align: right;
   display: inline-flex;
 }
 main {
@@ -61,7 +56,26 @@ main div {
   align-items: center;
   justify-content: space-around;
 }
-main img {
+main > section:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+}
+
+main > section:nth-child(1) > p {
+  margin-right: 30px;
+}
+
+main > section > form {
+  display: flex;
+  flex-direction: column;
+}
+main > section > form > [type="submit"] {
+  width: 70px;
+  padding: 8px;
+  background-color: cornflowerblue;
+  color: white;
+}
+main div img {
   height: 15px;
   width: 15px;
 }
